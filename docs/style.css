@@ -99,12 +99,12 @@ i {
   font-size: 1.5rem;
 }
 
-#linkedin {
-  --link-color: #0e76a8;
+#isep {
+  --link-color: #9e3d1e;
 }
 
-#github {
-  --link-color: #24292e;
+#sheets {
+  --link-color: #34a853;
 }
 
 #instagram {
@@ -117,4 +117,28 @@ i {
 
 #blog {
   --link-color: #673ab7;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
 }
